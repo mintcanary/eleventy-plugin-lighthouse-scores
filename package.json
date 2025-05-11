@@ -1,33 +1,33 @@
 {
-  "name": "@scope/plugin-name",
-  "version": "1.0.0",
-  "description": "Description of plugin",
-  "homepage": "",
-  "main": ".eleventy.js",
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
-    "bump": "npm --no-git-tag-version version"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/username/repo-name.git"
-  },
-  "keywords": [
-    "11ty",
-    "11ty-plugin",
-    "eleventy",
-    "eleventy-plugin"
-  ],
-  "author": {
-    "name": "username",
-    "url": "https://website.com"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/username/repo-name/issues"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
-  }
+	"name": "eleventy-plugin-lighthouse-scores",
+	"version": "1.0.0",
+	"description": "Eleventy plugin to add a shortcode for presenting Lighthouse scores.",
+	"homepage": "",
+	"main": ".eleventy.js",
+	"scripts": {
+		"start": "eleventy --serve",
+		"build": "eleventy",
+		"bump": "npm --no-git-tag-version version"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mintcanary/eleventy-plugin-lighthouse-scores.git"
+	},
+	"keywords": [
+		"11ty",
+		"11ty-plugin",
+		"eleventy",
+		"eleventy-plugin"
+	],
+	"author": {
+		"name": "Sam Smith",
+		"url": "https://smth.uk"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mintcanary/eleventy-plugin-lighthouse-scores/issues"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^3.0.0"
+	}
 }
