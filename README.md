@@ -4,7 +4,7 @@ Adds short-code to turn
 
 ```
 {% lighthouse "40", "60", "80", "100" %}`
-``
+```
 
 into:
 
@@ -69,5 +69,3 @@ Note that making changes in the plugin source will likely require restarting the
 ### Resources for creating an 11ty plugin
 
 - Bryan Robinson's ["Create a Plugin with 11ty"](https://www.youtube.com/watch?v=aO-NFFKjnnE) demonstration on "Learn With Jason"
-
----
