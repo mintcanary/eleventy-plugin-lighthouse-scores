@@ -9,19 +9,21 @@ Adds short-code to turn
 into:
 
 ```
-<dl class="lighthouse"><div class="lighthouse_item" data-rating="bad">
-	<dt class="lighthouse_label">Performance</dt>
-	<dd class="lighthouse_score">40</dd>
-</div><div class="lighthouse_item" data-rating="ok">
-	<dt class="lighthouse_label">Accessibility</dt>
-	<dd class="lighthouse_score">60</dd>
-</div><div class="lighthouse_item" data-rating="ok">
-	<dt class="lighthouse_label">Best practices</dt>
-	<dd class="lighthouse_score">80</dd>
-</div><div class="lighthouse_item" data-rating="good">
-	<dt class="lighthouse_label">SEO</dt>
-	<dd class="lighthouse_score">100</dd>
-</div></dl>
+<dl class="lighthouse">
+	<div class="lighthouse_item" data-rating="bad">
+		<dt class="lighthouse_label">Performance</dt>
+		<dd class="lighthouse_score">40</dd>
+	</div><div class="lighthouse_item" data-rating="ok">
+		<dt class="lighthouse_label">Accessibility</dt>
+		<dd class="lighthouse_score">60</dd>
+	</div><div class="lighthouse_item" data-rating="ok">
+		<dt class="lighthouse_label">Best practices</dt>
+		<dd class="lighthouse_score">80</dd>
+	</div><div class="lighthouse_item" data-rating="good">
+		<dt class="lighthouse_label">SEO</dt>
+		<dd class="lighthouse_score">100</dd>
+	</div>
+</dl>
 ```
 
 ## Usage
